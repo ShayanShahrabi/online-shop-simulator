@@ -39,7 +39,6 @@ To start using the application, you can either create an account through the `si
 | admin | admin | admin |
 
 After you login to your accaount, a menu will appear showing what you can do.<br>
-As a customer, you can 
 
 ---------------
 ## Resources
