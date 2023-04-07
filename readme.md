@@ -40,11 +40,6 @@ To start using the application, you can either create an account through the `si
 
 After you login to your accaount, a menu will appear showing what you can do.<br>
 As a customer, you can 
-## Acknowledgments
-I would like to express my sincere appreciation to all the individuals who have contributed to the completion of my project.
-Firstly, I would like to thank my TA, Mobin Nesari, for his valuable guidance and support throughout the project.<br>
-I would also like to extend my gratitude to *Google* for providing access to a wide range of resources and tools that have been instrumental.<br>
-Furthermore, I would like to express my thanks to Chat GPT (!) for its exceptional language processing capabilities, which have been invaluable in generating high-quality content and assisting me in various writing tasks.
 
 ---------------
 ## Resources
