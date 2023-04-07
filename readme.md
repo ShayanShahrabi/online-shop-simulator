@@ -29,6 +29,7 @@ Besides that, the database related stuff are all done using *SQLite*.
 Getting started: Provide instructions on how to download, install, and run your project. Include any , setup steps, configuration options, or environment variables that are necessary.
 
 ## Usage:
+(To run the project, clone this repo and open the `Digishop` folder in your IDE of choice and press the run button)
 To start using the application, you can either create an account through the `sign up` button or use one of the pre-defined accounts creared for ease of use:<br>
 ![start menu](https://raw.githubusercontent.com/Shyshfa/online-shop-simulator/develop/pics/start.PNG)
 | Username | Password | Defined Role |
