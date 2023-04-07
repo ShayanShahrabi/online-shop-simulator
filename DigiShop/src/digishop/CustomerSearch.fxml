@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="950.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="digishop.CustomerSearchController">
+   <children>
+      <Label layoutX="141.0" layoutY="62.0" text="Search Product / Seller:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfSearch" layoutX="326.0" layoutY="55.0" prefHeight="25.0" prefWidth="256.0" />
+      <Button fx:id="btnGo" layoutX="629.0" layoutY="57.0" mnemonicParsing="false" onAction="#btnGoClicked" prefHeight="35.0" prefWidth="55.0" style="-fx-background-color: Yellow;" text="Go">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TableView fx:id="tvResult" layoutY="144.0" prefHeight="754.0" prefWidth="950.0" style="-fx-background-color: gray;">
+        <columns>
+          <TableColumn fx:id="colProductName" prefWidth="250.0" text="Product Name" />
+          <TableColumn fx:id="colSeller" prefWidth="250.0" text="Seller" />
+            <TableColumn fx:id="colQuantity" prefWidth="99.0" text="Quantity" />
+            <TableColumn fx:id="colPrice" prefWidth="130.0" text="Price" />
+            <TableColumn fx:id="colComments" prefWidth="220.0" text="Comments" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

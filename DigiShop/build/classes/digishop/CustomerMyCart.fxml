@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPaneMyCart" prefHeight="900.0" prefWidth="950.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="digishop.CustomerMyCartController">
+   <children>
+      <Label layoutX="225.0" layoutY="68.0" prefHeight="0.0" prefWidth="134.0" textFill="LIME">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnPay" layoutX="415.0" layoutY="813.0" mnemonicParsing="false" onAction="#btnPayClicked" prefHeight="25.0" prefWidth="120.0" style="-fx-background-color: Yellow;" text="Pay">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblUserID" layoutX="14.0" layoutY="14.0" text="UserID">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tvOrders" layoutX="23.0" layoutY="87.0" prefHeight="653.0" prefWidth="904.0" style="-fx-background-color: gray;">
+        <columns>
+           <TableColumn fx:id="colOrderDate" prefWidth="100.0" text="Date" />
+           <TableColumn fx:id="colProductName" prefWidth="298.0" text="Product Name" />
+           <TableColumn fx:id="colSellerID" prefWidth="300.0" text="Seller" />
+           <TableColumn fx:id="colQuantity" text="Quantity" />
+           <TableColumn fx:id="colPrice" prefWidth="124.0" text="Price" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

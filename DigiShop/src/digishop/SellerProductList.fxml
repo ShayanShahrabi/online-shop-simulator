@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="950.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="digishop.SellerProductListController">
+   <children>
+      <TableView fx:id="tvProducts" prefHeight="900.0" prefWidth="950.0" style="-fx-background-color: gray;">
+         <columns>
+            <TableColumn fx:id="colProductName" prefWidth="350.0" text="Product Name" />
+            <TableColumn fx:id="colPrice" prefWidth="150.0" text="Price" />
+            <TableColumn fx:id="colQuantity" prefWidth="100.0" text="Quantity" />
+            <TableColumn fx:id="colComments" prefWidth="348.0" text="Comments" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

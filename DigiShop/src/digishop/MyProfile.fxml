@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="digishop.MyProfileController">
+   <children>
+      <AnchorPane id="AnchorPane" fx:id="anchorPaneSignUp" layoutY="-2.0" prefHeight="900.0" prefWidth="950.0" style="-fx-background-color: gray;">
+         <children>
+            <Label layoutX="339.0" layoutY="273.0" text="ID:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tfID" disable="true" layoutX="365.0" layoutY="263.0" />
+            <Label layoutX="322.0" layoutY="431.0" text="Email:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tfPhoneNumber" disable="true" layoutX="366.0" layoutY="340.0" />
+            <TextField fx:id="tfEmail" disable="true" layoutX="366.0" layoutY="421.0" />
+            <Label layoutX="303.0" layoutY="520.0" text="Address:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tfAddress" disable="true" layoutX="366.0" layoutY="510.0" prefHeight="25.0" prefWidth="386.0" />
+            <Label layoutX="257.0" layoutY="350.0" text="Phone Number:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tfWallet" disable="true" layoutX="366.0" layoutY="594.0" />
+            <Label layoutX="315.0" layoutY="604.0" text="Wallet:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

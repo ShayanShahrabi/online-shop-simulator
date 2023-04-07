@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="digishop.AdminAddAdminController">
+   <children>
+      <AnchorPane id="AnchorPane" fx:id="anchorPaneSignUp" layoutY="-1.0" prefHeight="900.0" prefWidth="950.0" style="-fx-background-color: gray;">
+         <children>
+            <Label layoutX="308.0" layoutY="195.0" text="ID:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tfID" layoutX="354.0" layoutY="185.0" />
+            <PasswordField fx:id="pfPassword" layoutX="354.0" layoutY="261.0" />
+            <Label layoutX="267.0" layoutY="271.0" text="Password:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="pfPasswordConfirm" layoutX="354.0" layoutY="341.0" />
+            <Label layoutX="210.0" layoutY="351.0" text="Confirm Password:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="300.0" layoutY="409.0" text="Role:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="289.0" layoutY="545.0" text="Email:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tfPhoneNumber" layoutX="354.0" layoutY="459.0" />
+            <TextField fx:id="tfEmail" layoutX="354.0" layoutY="535.0" />
+            <Label layoutX="272.0" layoutY="621.0" text="Address:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tfAddress" layoutX="354.0" layoutY="611.0" prefHeight="25.0" prefWidth="386.0" />
+            <Button fx:id="btnSignUp" layoutX="425.0" layoutY="728.0" onAction="#btnSignUpClicked" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: Yellow;" text="Sign Up">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="237.0" layoutY="469.0" text="Phone Number:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblRole" layoutX="354.0" layoutY="406.0" text="Admin">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

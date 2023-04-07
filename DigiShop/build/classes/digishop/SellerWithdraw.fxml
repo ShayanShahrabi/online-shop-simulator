@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="digishop.SellerWithdrawController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="950.0" style="-fx-background-color: gray;">
+         <children>
+            <Label layoutX="347.0" layoutY="320.0" text="Withdraw:">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tfAmount" layoutX="440.0" layoutY="314.0" prefHeight="25.0" prefWidth="256.0" />
+            <Label layoutX="225.0" layoutY="68.0" prefHeight="0.0" prefWidth="134.0" textFill="LIME">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnSubmitRequest" layoutX="426.0" layoutY="438.0" mnemonicParsing="false" onAction="#btnSubmitRequestClicked" prefHeight="25.0" prefWidth="120.0" style="-fx-background-color: Yellow;" text="Submit Request">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label fx:id="lblSellerID" disable="true" layoutX="14.0" layoutY="14.0" text="SellerID">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
